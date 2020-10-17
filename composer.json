@@ -12,6 +12,10 @@
         "illuminate/support": "7.*",
         "illuminate/database": "7.*"
     },
+    "replace": {
+        "illuminate/database": "self.version",
+        "illuminate/support": "self.version"
+    },
     "extra": {
         "laravel": {
             "providers": [
